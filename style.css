@@ -1,0 +1,272 @@
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.7;
+  font-family: "Roboto", sans-serif;
+  background: #1e2f55;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+:focus {
+  outline-width: 0;
+}
+
+/* ---------------------------- */
+
+.main-content .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-section #search {
+  width: 50%;
+  padding: 2rem;
+  border: none;
+  background: #16274c;
+  font-size: 2rem;
+  color: white;
+}
+
+.search-section .fa-search {
+  font-size: 2rem;
+  padding: 2.1rem;
+  background: #0e1d40;
+  color: white;
+}
+
+.filter-buttons {
+  background: #0e1d40;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 5vh;
+  padding: 2rem;
+  margin-bottom: 5rem;
+  border-radius: 1rem;
+}
+
+.filter-buttons .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.filter-buttons h2 {
+    font-size: 3rem;
+    color: white;
+}
+
+.filter-buttons .genres {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #5B6987;
+}
+
+.filter-buttons .genres a {
+    color: #5B6987;
+    margin-top: 1rem;
+}
+
+.filter-buttons .genres a:hover {
+    color: #7282a5;
+}
+
+/* ------------------------------- */
+
+.divider {
+    padding: .1rem;
+    background: #7282a5;
+    margin-bottom: 5rem;
+}
+
+/* ------------------------------- */
+
+h1 {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.movies .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    max-width: 120rem;
+    margin: auto;
+    grid-gap: 3rem;
+}
+
+.movies .movie {
+    
+    background: #0e1d40;
+    width: 50rem;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.movies .movie .movie-title {
+    padding: 2rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.movies .movie .movie-description {
+    padding: 1rem 2rem;
+    padding-bottom: 3rem;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    color: #7282a5;
+    text-align: center;
+   
+}
+
+.movies .movie .poster {
+    height: 65rem;
+}
+
+.movies .movie .poster-one {
+    background-image: url(/img/1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-two {
+    background-image: url(/img/2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-three {
+    background-image: url(/img/3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-four {
+    background-image: url(/img/4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-five {
+    background-image: url(/img/5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-six {
+    background-image: url(/img/6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-seven {
+    background-image: url(/img/7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-eight {
+    background-image: url(/img/8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-nine {
+    background-image: url(/img/9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-ten {
+    background-image: url(/img/10.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-eleven {
+    background-image: url(/img/11.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-twelve {
+    background-image: url(/img/12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-thirteen {
+    background-image: url(/img/14.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-fourteen {
+    background-image: url(/img/15.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-fifteen {
+    background-image: url(/img/13.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ------------------------------- */
+
+.active-btn {
+    color: #abafb9 !important;
+}
+
