@@ -118,6 +118,10 @@ h1 {
     color: white;
 }
 
+.movies {
+    margin-bottom: 5vh;
+}
+
 .movies .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -133,6 +137,7 @@ h1 {
     width: 50rem;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: .5rem;
 }
 
 .movies .movie .movie-title {
@@ -142,21 +147,25 @@ h1 {
     display: flex;
     justify-content: center;
     color: white;
+    text-transform: uppercase;
 }
 
 .movies .movie .movie-description {
-    padding: 1rem 2rem;
-    padding-bottom: 3rem;
-    font-size: 1.7rem;
+    padding: 0rem 2rem;
+    padding-bottom: 4rem;
+    font-size: 1.6rem;
     display: flex;
     justify-content: center;
     color: #7282a5;
     text-align: center;
+    margin: auto;
    
 }
 
 .movies .movie .poster {
     height: 65rem;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
 }
 
 .movies .movie .poster-one {
@@ -264,9 +273,52 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.movies .movie .poster-sixteen {
+    background-image: url(/img/18.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-seventeen {
+    background-image: url(/img/19.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-eighteen {
+    background-image: url(/img/20.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-nineteen {
+    background-image: url(/img/21.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-twenty {
+    background-image: url(/img/17.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movies .movie .poster-twentyone {
+    background-image: url(/img/22.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* ------------------------------- */
 
 .active-btn {
     color: #abafb9 !important;
+    transition: 0.2s ease-in;
 }
 
