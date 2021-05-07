@@ -2,7 +2,24 @@
 
 // Global variables:
 const genres = document.querySelectorAll(".genre");
+
 const movies = document.querySelectorAll(".movie");
+const searchBox = document.querySelector("#search");
+
+searchBox.addEventListener("keyup", function (e) {
+  e.preventDefault();
+  const userSearch = e.target.value.toLowerCase();
+
+  for (let i of movies) {
+    let movie = i.textContent.toLowerCase();
+
+    if (movie.indexOf(userSearch) === -1) {
+      i.classList.add("hidden");
+    } else {
+      i.classList.remove("hidden");
+    }
+  }
+});
 
 // Filtering through movies function:
 function filterMovies() {
